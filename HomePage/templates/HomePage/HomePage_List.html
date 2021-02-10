@@ -8,16 +8,19 @@
   </head>
   <body>
     <h1>jhjhjfjhf</h1>
-    {% for HomePage in HomePages  %}
-    <h2> <a href="#">{{HomePage.title}}</a>
+<div class="container">
+  {% for HomePage in HomePages  %}
+  <h2> <a href="#">{{HomePage.title}}</a>
 <p>{{HomePage.snippet}}</p>
 <p>{{HomePage.date}}</p>
 
 
 
-     </h2>
+   </h2>
 
 
-    {% endfor %}
+  {% endfor %}
+
+</div>
   </body>
 </html>
